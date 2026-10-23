@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🧱 HackerRank SQL Practice on Databricks
+# 🧱 HackerRank SQL Series Practice on Databricks
 
-**52 retos SQL de HackerRank migrados de MySQL a Databricks y resueltos de 4 formas: MySQL, Databricks SQL, Pandas y PySpark.**
+**52 retos HackerRank (Serie SQL) migrados a Databricks y resueltos de 4 formas: MySQL, Databricks SQL, Pandas y PySpark.**
 
 [![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://www.databricks.com/)
 [![Apache Spark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)](https://spark.apache.org/docs/latest/api/python/)
@@ -37,11 +37,11 @@
 
 Este proyecto toma los ejercicios de la [ruta SQL de HackerRank](https://www.hackerrank.com/domains/sql) y los lleva a un **Lakehouse en Databricks**. Para cada reto:
 
-1. Los datos de HackerRank se exportan a **CSV**, se suben a **Volumes de Unity Catalog** y se convierten en **tablas Delta** (`bronze` / `silver`).
+1. Los datos de HackerRank se exportan a **CSV**, se suben a **Volumes de Unity Catalog** y se convierten en **tablas Delta** (`bronze`).
 2. Se documenta el enunciado, el esquema y la solución original en **MySQL**.
 3. Se resuelve otra vez en **Databricks SQL**, en **Pandas** y en **PySpark**.
 
-El objetivo es practicar la **traducción entre motores y paradigmas**: lo que en MySQL es un `REGEXP`, en Spark es un `rlike`, y en Pandas un `str.contains`.
+El objetivo es practicar la **traducción entre motores y paradigmas**.
 
 ---
 
